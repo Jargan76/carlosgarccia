@@ -6,22 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    <!-- the below 3 lines have been commented out untill item can be added to them -->
+   <!--  <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="/favicon.ico">  -->
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Carlos Guadron Garcia Graphic Designer</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-  
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,10 +32,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+<body>
+      <div class="jumbotron text-center">
+        <img id="jumboImg" class="image-responsive" src="assests/images/CG-Logo.jpg">
+      </div>
 
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default ">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,35 +46,101 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#"> <img id="logoLight" src="assests/images/LogoLightcontrast4.png">  Carlos Guadron Garcia</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Porfolio <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#personal"><i class="fa fa-bicycle" aria-hidden="true"></i>  Personal creativity</a></li>
+                <li><a href="#digital"><i class="fa fa-pencil" aria-hidden="true"></i>  Digital Design</a></li>
+                <li><a href="#animation"><i class="fa fa-desktop" aria-hidden="true"></i>  3D Animation</a></li>
+                <li><a href="#motion"><i class="fa fa-film" aria-hidden="true"></i>  Motion Graphics</a></li>
+              </ul>
+            </li>
+            <li><a href="#about"><i class="fa fa-male" aria-hidden="true"></i> About</a></li>
+            <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <div class="container">
+      <div class="portfolio">
+            <div id="personal">
+                <div class="well">
+                    <h4>POSTERS</h4>
+                    <img class="portfolioImg image-responsive" src="assests/images/KArMa_Poster03.jpg">
+                    <div class="row ">
+                        <div class="col-xs-6">
+                            <img class="portfolioImg image-responsive portfolioCluster" src="assests/images/ConcertPoster-849x1024.jpg">
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="portfolioImg image-responsive portfolioCluster" src="assests/images/Music-Poster-854x1024.jpg">
+                        </div>
+                    </div>
+                    <img class="portfolioImg image-responsive" src="assests/images/Carshow_Magazine_Poster.jpg">
+                </div> <!-- /well   POSTERS  -->
+                <div class="well">
+                  <h4>MOTO</h4>
+                  <img class="portfolioImg image-responsive" src="assests/images/ ">
+                </div>
+                </div> <!-- personal -->
+            </div> <!-- /portfolio -->
+          <hr>
+          <div id="digital">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+            </div>
+          <hr>
+          <div id="animation">
 
-    </div><!-- /.container -->
+            </div>
+          <hr>
+          <div id="motion">
+
+            </div>
+          <hr>
+
+          <div  id="about">
+            <h3>My Thoughts</h3>
+            <div class="row">
+              <div class="col-xs-4">
+                <img id="selfie" class="image-responsive" src="assests/images/Selfie-150x150.jpg">
+              </div>
+              <div class="col-xs ">
+                <p>" I am inspire by the future of a better society for any individual that wants to succeed in life, creativity is one way to express innovative ideas that can change the way we think and feel about my journey as a citizen of this great planet."</p>
+                </div>
+              </div>
+            <p>" What it would be the universe without the living things. Better or worst. Are we extraordinary or nothing in this infinite universe. If nothing, how can we change that to extraordinary. "</p><p>I am not afraid of the end of the universe. The only thing that I am afraid of is not trying to be better at growing as human been. Someone said once, " Where do this go, when do this end, what will happened to us." " Are those the right questions to be ask right now." " what about what life really wants from us. " " What is the real deal in life? "</p>
+          </div>
+      <hr>
+      <div id="contact">
+      <h3 class="text-center">Want to get in touch with me?</h3>
+
+      <!-- business card img is ok but want just it without the contact info -->
+          <!-- <img id="businessCard" class="image-responsive" src="assests/images/MYBUSINESSCARD.png"> -->
+      <div class="row text-center">
+        <div class="col-xs-6">
+         <p><a href="mailto:carlos89115@hotmail.com" class="btn btn-warning">email me now.</a></p>
+        </div>
+        <div class="col-xs-6">
+          <p><a href="tel:+17862277746" class="btn btn-warning">call me now.</a></p>
+        </div>
+      </div>  <!--  /row-->
+      </div>  <!-- /contact -->
+      <hr>
+    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://use.fontawesome.com/4714b6e383.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
