@@ -64,6 +64,10 @@ body {
     padding: 0;
 }
 
+.navbar-default:hover {
+    opacity: 1;
+}
+
 .portfolio {
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
