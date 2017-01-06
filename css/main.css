@@ -3,6 +3,38 @@ body {
   padding-top: 0px;
 }
 
+
+#about {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: x-large;
+    padding: 0 15px;
+    border-left: 1px solid #888;
+}
+
+#backToTop {
+    font-size: 40px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0.8;
+}
+
+#jumboImg {
+    width: 100%;
+    max-width: 1440px;
+}
+
+#logoLight {
+    display: inline;
+    margin-top: -12px;
+}
+
+#selfie {
+    margin-bottom: 15px;
+}
+
+/*     CLASSES   */
+
 .fa-chevron-right {
     position: relative;
     top: 45%;
@@ -15,6 +47,15 @@ body {
     top: 45%;
     text-shadow: -5px 0px 1px #222;
     font-size: -webkit-xxx-large;
+}
+
+.fadded {
+    opacity: 0.5;
+    color: #333;
+}
+
+.hideMe {
+    display: none;
 }
 
 .jumbotron {
@@ -45,28 +86,6 @@ body {
     max-height: 1024px;
     max-width:  724px;
 }
-
-#about {
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: x-large;
-    padding: 0 15px;
-    border-left: 1px solid #888;
-}
-
-#jumboImg {
-    width: 100%;
-    max-width: 1440px;
-}
-
-#logoLight {
-    display: inline;
-    margin-top: -12px;
-}
-
-#selfie {
-    margin-bottom: 15px;
-}
-
 
 
 /*----------------------------*/
