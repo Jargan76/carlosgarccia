@@ -8,10 +8,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- the below 3 lines have been commented out untill item can be added to them -->
    <!--  <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/favicon.ico">  -->
+    <meta name="author" content="">  -->
+    <link rel="icon" href="assests/images/LogoCGTrial2.png">
 
-    <title>Carlos Guadron Garcia Graphic Designer</title>
+    <title>Carlos Guadron Garcia - Graphic Designer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,6 +22,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/4714b6e383.js"></script>
 
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -53,7 +55,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Porfolio <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="#posters"><i class="fa fa-picture-o" aria-hidden="true"></i> Posters</a></li>
                 <li><a href="#personal"><i class="fa fa-bicycle" aria-hidden="true"></i>  Personal creativity</a></li>
+                <li><a href="#magazine"><i class="fa fa-book" aria-hidden="true"></i>  Magazine Layout</a></li>
                 <li><a href="#digital"><i class="fa fa-pencil" aria-hidden="true"></i>  Digital Design</a></li>
                 <li><a href="#animation"><i class="fa fa-desktop" aria-hidden="true"></i>  3D Animation</a></li>
                 <li><a href="#motion"><i class="fa fa-film" aria-hidden="true"></i>  Motion Graphics</a></li>
@@ -68,10 +72,10 @@
 
     <div class="container">
       <div class="portfolio">
-            <div id="personal">
+            <div id="posters">
                 <div class="well">
                     <h4>POSTERS</h4>
-                    <img class="portfolioImg image-responsive" src="assests/images/KArMa_Poster03.jpg">
+                    <img class="tall portfolioImg image-responsive" src="assests/images/KArMa_Poster03.jpg">
                     <div class="row ">
                         <div class="col-xs-6">
                             <img class="portfolioImg image-responsive portfolioCluster" src="assests/images/ConcertPoster-849x1024.jpg">
@@ -80,28 +84,82 @@
                             <img class="portfolioImg image-responsive portfolioCluster" src="assests/images/Music-Poster-854x1024.jpg">
                         </div>
                     </div>
-                    <img class="portfolioImg image-responsive" src="assests/images/Carshow_Magazine_Poster.jpg">
+                    <img class="tall portfolioImg image-responsive" src="assests/images/Carshow_Magazine_Poster.jpg">
                 </div> <!-- /well   POSTERS  -->
+            </div>
+              <hr>
+            <div id="personal">
+                  <div class="well">
+                    <h4>MOTO</h4>
+                    <img class="portfolioImg image-responsive" src="assests/images/classic-car.jpg ">
+
+                    <!-- Carousel================================================= -->
+                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img class="first-slide portfolioImg" src="assests/images/ford-mustang-146580Artwork1.png" alt="First slide">
+                      </div>
+                      <div class="item">
+                        <img class="second-slide portfolioImg" src="assests/images/ford-mustang-146580Artwork3.png" alt="Second slide">
+                      </div>
+                      <div class="item">
+                        <img class="third-slide portfolioImg" src="assests/images/ford-mustang-146580Artwork4.png" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <i class=" fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                  </div><!-- /.carousel -->
+                    <img class="portfolioImg image-responsive" src="assests/images/biker-384178Artwork_48000.jpg ">
+                    <img class="portfolioImg image-responsive" src="assests/images/Image_baground-1024x819.png ">
+                  </div>
+            </div> <!-- personal -->
+                <hr>
+            <div id="magazine">
+                  <div class="well">
+                      <h4>MAGAZINE LAYOUT</h4>
+                      <img class="portfolioImg image-responsive tall" src="assests/images/Kitchen_Magazine_File-724x1024.jpg">
+                      <img class="portfolioImg image-responsive short" src="assests/images/Kitchen_Magazine_File2-1024x724.jpg">
+                      <img class="portfolioImg image-responsive short" src="assests/images/Kitchen_Magazine_File3-1024x724.jpg">
+                      <img class="portfolioImg image-responsive short" src="assests/images/Kitchen_Magazine_File4-1024x724.jpg">
+                      <img class="portfolioImg image-responsive short" src="assests/images/Kitchen_Magazine_File5-1024x724.jpg">
+                      <img class="portfolioImg image-responsive tall" src="assests/images/Kitchen_Magazine_File6-724x1024.jpg">
+                  </div>
+            </div>
+                <hr>
+            <div id="digital">
                 <div class="well">
-                  <h4>MOTO</h4>
-                  <img class="portfolioImg image-responsive" src="assests/images/ ">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>VECTOR</h4>
+                        <img class="portfolioImg image-responsive" src="assests/images/Ciber-Robot-Vector-768x994.jpg">
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>PAINT</h4>
+                        <img class="portfolioImg image-responsive" src="assests/images/Digital-Paint-768x994.jpg">
+                      </div>
+                    </div>
+                    <img class="portfolioImg image-responsive" src="assests/images/PlanetBornConcept-1024x581.jpg">
                 </div>
-                </div> <!-- personal -->
-            </div> <!-- /portfolio -->
-          <hr>
-          <div id="digital">
+            </div>
+              <hr>
+            <div id="animation">
 
             </div>
-          <hr>
-          <div id="animation">
+              <hr>
+            <div id="motion">
 
             </div>
-          <hr>
-          <div id="motion">
-
-            </div>
-          <hr>
-
+              <hr>
+      </div>
           <div  id="about">
             <h3>My Thoughts</h3>
             <div class="row">
@@ -136,7 +194,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://use.fontawesome.com/4714b6e383.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
