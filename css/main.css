@@ -1,6 +1,8 @@
 body {
   min-height: 1000px;
   padding-top: 0px;
+  background-color: #111;
+  color: #ccc;
 }
 
 
@@ -62,6 +64,26 @@ body {
     background-color: #222;
     margin: 0;
     padding: 0;
+}
+
+.navbar-default {
+    background-image: url('file:///C:/Users/jarga/Desktop/carlosG/carlosgarccia/assests/images/navbar-texture.jpg');
+    border: 2px solid #6f096f;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:visited {
+    color: #eee;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #aaa;
+}
+
+.navbar-default .navbar-brand {
+    color: #eee;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #aaa;
 }
 
 .navbar-default:hover {
