@@ -94,8 +94,8 @@ body {
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
 }
-.portfolioCluster {
-    border: 1px solid #000;
+.portfolioImg:hover {
+    box-shadow: 0 0 8px #222;
 }
 .portfolioImg {
     margin: 7.5px 0;
