@@ -67,7 +67,7 @@ body {
 }
 
 .navbar-default {
-    background-image: url('file:///C:/Users/jarga/Desktop/carlosG/carlosgarccia/assests/images/navbar-texture.jpg');
+    background-image: url('assests/images/navbar-texture.jpg');
     border: 2px solid #6f096f;
     border-radius: 0;
 }
