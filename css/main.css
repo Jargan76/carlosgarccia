@@ -68,7 +68,10 @@ body {
 
 .navbar-default {
     background-image: url('https://jargan76.github.io/carlosgarccia/assests/images/navbar-texture.jpg');
-    border: 2px solid #6f096f;
+    border-top: 2px solid #6f096f;
+    border-bottom: 2px solid #6f096f;
+    border-left:none;
+    border-right:none;
     border-radius: 0;
 }
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:visited {
