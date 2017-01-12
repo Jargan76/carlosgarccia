@@ -42,6 +42,10 @@ hr {
 
 /*     CLASSES   */
 
+.btn-warning {
+    color: #000;
+}
+
 .fa-chevron-right {
     position: relative;
     top: 45%;
