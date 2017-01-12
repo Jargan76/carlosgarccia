@@ -73,7 +73,16 @@ hr {
 .navbar {
     margin-bottom: 0;
 }
-
+.navbar-nav>li>.dropdown-menu {
+    background-image: url('https://jargan76.github.io/carlosgarccia/assests/images/navbar-texture2.png');
+}
+.dropdown-menu>li>a {
+    color: #eee;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent;
+    color: #eee;
+}
 .navbar-default {
     background-image: url('https://jargan76.github.io/carlosgarccia/assests/images/navbar-texture2.png');
     background-position-y: -32px;
